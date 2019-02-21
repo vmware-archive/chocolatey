@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>riff</id>
+    <version>0.2.0</version>
+    <owners>riff team</owners>
+    <!-- ============================== -->
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>riff</title>
+    <authors>riff team</authors>
+    <projectUrl>http://projectriff.io/</projectUrl>
+    <licenseUrl>https://github.com/projectriff/riff/blob/master/LICENSE</licenseUrl>
+    <packageSourceUrl>https://github.com/projectriff/chocolatey</packageSourceUrl>
+    <projectSourceUrl>https://github.com/projectriff/riff</projectSourceUrl>
+    <docsUrl>https://projectriff.io/docs</docsUrl>
+    <tags>riff faas functions knative kubernetes serverless</tags>
+    <summary>riff is for functions</summary>
+    <description>Open source Function as a Service on top of Knative</description>
+    <releaseNotes>Release notes are available at https://github.com/projectriff/riff/releases</releaseNotes>
+    <!-- =============================== -->      
+
+    <dependencies>
+      <dependency id="kubernetes-cli" />
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
