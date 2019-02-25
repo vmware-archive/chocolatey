@@ -5,7 +5,7 @@
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>riff</id>
     <version>0.2.0</version>
-    <owners>riff team</owners>
+    <owners>fbiville</owners>
     <!-- ============================== -->
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <title>riff is for functions</title>
@@ -17,10 +17,10 @@
     <docsUrl>https://projectriff.io/docs</docsUrl>
     <tags>riff faas functions knative kubernetes serverless</tags>
     <summary>riff is for functions</summary>
-    <description>Open source Function as a Service on top of Knative</description>
+    <description>Open Source Function as a Service on top of Knative</description>
     <releaseNotes>Release notes are available at https://github.com/projectriff/riff/releases</releaseNotes>
+    <bugTrackerUrl>https://github.com/projectriff/riff/issues</bugTrackerUrl>
     <!-- =============================== -->      
-
     <dependencies>
       <dependency id="kubernetes-cli" version="1.10.0" />
     </dependencies>
