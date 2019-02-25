@@ -11,6 +11,7 @@
     <title>riff is for functions</title>
     <authors>riff team</authors>
     <projectUrl>http://projectriff.io/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/projectriff/riff@master/logo.png</iconUrl>
     <licenseUrl>https://github.com/projectriff/riff/blob/master/LICENSE</licenseUrl>
     <packageSourceUrl>https://github.com/projectriff/chocolatey</packageSourceUrl>
     <projectSourceUrl>https://github.com/projectriff/riff</projectSourceUrl>
