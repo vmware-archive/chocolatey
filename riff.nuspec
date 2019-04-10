@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>riff</id>
-    <version>0.2.0</version>
+    <version>0.3.0</version>
     <owners>fbiville</owners>
     <!-- ============================== -->
     <!-- == SOFTWARE SPECIFIC SECTION == -->
@@ -23,7 +23,7 @@
     <bugTrackerUrl>https://github.com/projectriff/riff/issues</bugTrackerUrl>
     <!-- =============================== -->      
     <dependencies>
-      <dependency id="kubernetes-cli" version="1.10.0" />
+      <dependency id="kubernetes-cli" version="1.11.0" />
     </dependencies>
   </metadata>
   <files>
