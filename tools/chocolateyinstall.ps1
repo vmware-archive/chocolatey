@@ -5,8 +5,8 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   PackageName   = $env:ChocolateyPackageName
   UnzipLocation = $toolsDir
-  Url64bit      = 'https://github.com/projectriff/riff/releases/download/v0.3.1/riff-windows-amd64.zip'
-  Checksum64    = 'a6bc229357f8e8d36ec5204158cbaa2a162fe34a63c16d7ddead56f848e70f23'
+  Url64bit      = 'https://storage.googleapis.com/projectriff/riff-cli/releases/v0.4.0/riff-windows-amd64.zip'
+  Checksum64    = '2c8f288706c6f19eaa3c0f577e2daf3ef60d839879e7eb5e4be728cd124d9dba'
   ChecksumType64= 'sha256'
 }
 

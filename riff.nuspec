@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>riff</id>
-    <version>0.3.1</version>
+    <version>0.4.0</version>
     <owners>fbiville</owners>
     <!-- ============================== -->
     <!-- == SOFTWARE SPECIFIC SECTION == -->
@@ -12,15 +12,15 @@
     <authors>riff team</authors>
     <projectUrl>https://projectriff.io/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/projectriff/riff@master/logo.png</iconUrl>
-    <licenseUrl>https://github.com/projectriff/riff/blob/master/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/projectriff/cli/blob/master/LICENSE</licenseUrl>
     <packageSourceUrl>https://github.com/projectriff/chocolatey</packageSourceUrl>
-    <projectSourceUrl>https://github.com/projectriff/riff</projectSourceUrl>
+    <projectSourceUrl>https://github.com/projectriff/cli</projectSourceUrl>
     <docsUrl>https://projectriff.io/docs</docsUrl>
     <tags>riff faas functions knative kubernetes serverless</tags>
     <summary>riff is for functions</summary>
-    <description>Open Source Function as a Service on top of Knative</description>
-    <releaseNotes>Release notes are available at https://github.com/projectriff/riff/releases</releaseNotes>
-    <bugTrackerUrl>https://github.com/projectriff/riff/issues</bugTrackerUrl>
+    <description>Open Source Function as a Service on top of Kubernetes</description>
+    <releaseNotes>Release notes are available at https://github.com/projectriff/cli/releases</releaseNotes>
+    <bugTrackerUrl>https://github.com/projectriff/cli/issues</bugTrackerUrl>
     <!-- =============================== -->      
     <dependencies>
       <dependency id="kubernetes-cli" version="1.11.0" />
